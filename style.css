@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #FFFFFF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 
+    0 0 5px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navegacao-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  background-color: #FFFFFF;
+
+  ;
+}
+
+.botao-nav {
+  color: rgba(10, 153, 254, 1);
+  font-size: 20px;
+  background-color: #0A99FE1A;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+}
+
+.botao-nav:hover {
+  background-color: #0A99FE;
+  color: white;
+}
+
+#tela-principal {
+  padding: 20px;
+}
+
+.pictures-section {
+  margin-bottom: 40px;
+  max-height: 350px;
+  padding-right: 20px;
+}
+
+.action-figures-section {
+  max-height: 350px;
+  padding-right: 20px;
+  
+}
+
+.categoria {
+  color: #1B1B1B;
+  font-size: 20px;
+}
+
+.pictures-list,
+.action-figures-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.card-pictures {
+  width: 207px;
+  height: 275px;
+  max-height: 100%;
+  background-color: #ececec;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 50%;
+}
+
+.img-card {
+  width: 100%;
+  height: 50%;
+  border-radius: 8px 8px 0 0;
+}
+
+.nome-card {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #1B1B1B;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.preco {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #868383;
+  text-align: center;
+  justify-content: center;
+}
+
+.botao-comprar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #0A99FE;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.botao-comprar:hover {
+  background-color: #0778c0;
+}
